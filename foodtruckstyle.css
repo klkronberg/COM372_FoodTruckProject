@@ -4,7 +4,7 @@ header {
   font-family: Cabin Sketch;
 }
 #container {
-  border: 12px solid yellow;
+  border: 12px double yellow;
   padding: 10px;
   overflow:auto;
 }
@@ -16,13 +16,13 @@ body {
     font-size: 16px;
     font-weight: bold;
     text-align: center;
-    border-left: 8px;
-    border-right: 8px;
-    border: solid;
+    border-top: 4px solid black;
+    border-bottom: 4px solid black;
+    padding-bottom: 17px;
+
 }
 #navigation ul {
     height: auto;
-    padding: 8px;
 
 }
  #navigation li {
