@@ -6,7 +6,39 @@ header {
 #container {
   border: 12px solid yellow;
   padding: 10px;
+  overflow:auto;
 }
 body {
   font-family: Abel;
+}
+#navigation {
+    height: 35px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    border-left: 8px;
+    border-right: 8px;
+    border: solid;
+}
+#navigation ul {
+    height: auto;
+    padding: 8px;
+
+}
+ #navigation li {
+   display: inline;
+  text-decoration: none;
+  padding: 100px;
+}
+#content {
+     padding: 0;
+     margin: 0;
+     display: block;
+     border: 1px solid white;
+  }
+img {
+  float: left;
+}
+h2 {
+  text-align: right;
 }
