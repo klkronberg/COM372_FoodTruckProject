@@ -1,7 +1,14 @@
 @import url(https://fonts.googleapis.com/css?family=Cabin+Sketch);
 @import url(https://fonts.googleapis.com/css?family=Abel);
+html {
+  background-image: url(images/backgroundimage.jpg);
+  border: 12px double yellow;
+  padding: 10px;
+  overflow:auto;
+}
 header {
   font-family: Cabin Sketch;
+
 }
 #container {
   border: 12px double yellow;
@@ -27,18 +34,24 @@ body {
 }
  #navigation li {
    display: inline;
-  text-decoration: none;
   padding: 100px;
+  text-decoration: none;
 }
 #content {
-     padding: 0;
+     padding: 15px;
      margin: 0;
      display: block;
-     border: 1px solid white;
-  }
+}
 img {
   float: left;
+  padding-right:15px;
 }
 h2 {
   text-align: right;
+  font-size: 30px;
+  font-weight: bolder;
+}
+h1 {
+  font-size: 50px;
+
 }
