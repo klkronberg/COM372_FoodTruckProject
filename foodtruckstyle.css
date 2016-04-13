@@ -1,9 +1,9 @@
 @import url(https://fonts.googleapis.com/css?family=Cabin+Sketch);
 @import url(https://fonts.googleapis.com/css?family=Abel);
 html {
-  background-image: url(images/backgroundimage.jpg);
-  border: 12px double yellow;
-  padding: 10px;
+  background-color: #dc9a48;
+  border: 9px double #A23811;
+  padding: 30px;
   overflow:auto;
 }
 header {
@@ -11,20 +11,24 @@ header {
 
 }
 #container {
-  border: 12px double yellow;
+  border: 9px double #A23811;
   padding: 10px;
   overflow:auto;
+  background-image: url(images/backgroundimage.jpg);
 }
 body {
   font-family: Abel;
+  font-size: 25px;
+  font-weight: bolder;
+  color: #0E191D;
 }
 #navigation {
     height: 35px;
     font-size: 16px;
     font-weight: bold;
     text-align: center;
-    border-top: 4px solid black;
-    border-bottom: 4px solid black;
+    border-top: 4px solid #dc9a48;
+    border-bottom: 4px solid #dc9a48;
     padding-bottom: 17px;
 
 }
@@ -34,8 +38,9 @@ body {
 }
  #navigation li {
    display: inline;
-  padding: 100px;
+  padding: 70px;
   text-decoration: none;
+  font-size: 20px;
 }
 #content {
      padding: 15px;
@@ -48,10 +53,30 @@ img {
 }
 h2 {
   text-align: right;
-  font-size: 30px;
+  font-size: 40px;
   font-weight: bolder;
+  color: #68947c;
 }
 h1 {
-  font-size: 50px;
-
+  font-size: 55px;
+  color: #013645;
+}
+h3 {
+  color: #013645;
+}
+h4 {
+  color: #013645;
+}
+#appetizers {
+  float: left;
+  width: 33%;
+  margin: 0px;
+}
+#sandwiches {
+  float: left;
+width: 33%;
+}
+#soups{
+  float: left;
+width: 33%;
 }
